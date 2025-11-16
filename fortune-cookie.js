@@ -1,13 +1,14 @@
 //Hillary Charlton
-//Assignment 8
+//Assignment 8 - Custom Module
 
+//import ansi-colors
 const colors = require('ansi-colors')
 
-//import module
+//import custom module
 const getFortune = require('./get-fortunes.js')
 const message = getFortune()
 
 //display message
 console.log("")
-console.log(colors.magenta.bgBlack(message))
+console.log(colors.cyan.bgBlack(message))
 console.log("")

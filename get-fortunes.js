@@ -10,5 +10,5 @@ const getFortune = randomFortune => {
     return randomFortune
 }    
 
-//export module
+//export function
 module.exports = getFortune
